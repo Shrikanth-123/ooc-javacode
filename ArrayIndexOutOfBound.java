@@ -1,13 +1,13 @@
 public class ArrayIndex {
 	 public static void main(String args[])
 	  {
-	    int marks[] = { 40, 50, 60 };
+	    int marks[] = { 60, 70, 80 };
 	    System.out.println("Hello 1");
 	 
 	    try
 	    {
-	      int m1 = marks[3];                          
-	      System.out.println("Marks are " + m1);
+	      int m = marks[3];                          
+	      System.out.println("Marks are " + m);
 	    }
 	    catch(ArrayIndexOutOfBoundsException e)
 	    {
